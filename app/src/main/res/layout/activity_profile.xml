@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#000"
+    android:background="@color/colorPrimaryDark"
     android:layout_height="match_parent"
     tools:context="com.example.poornima.chatapp.ProfileActivity">
 
@@ -47,23 +47,28 @@
 
     <Button
         android:id="@+id/profile_send_req_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/profile_status"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="58dp"
-        android:background="@color/colorAccent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="#FFFFFF"
         android:text=" SEND FRIEND REQUEST "
-        android:textColor="#FFFFFF" />
+         />
 
     <Button
         android:id="@+id/profile_decline_req_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_below="@+id/profile_send_req_btn"
-        android:text=" DECLINE FRIEND REQUEST " />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:text=" DECLINE FRIEND REQUEST "
+        android:textColor="#FFFFFF" />
 </RelativeLayout>

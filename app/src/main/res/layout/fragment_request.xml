@@ -3,11 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.poornima.chatapp.RequestFragment">
-
-    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:textSize="15dp"
+        android:text="ALL friend requests will be displayed here" />
+</RelativeLayout>
+
 
 </FrameLayout>

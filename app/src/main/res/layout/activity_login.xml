@@ -13,6 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_alignParentStart="true"
         android:id="@+id/login_password">
         <EditText
@@ -29,6 +31,8 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:id="@+id/login_email"
         android:layout_marginBottom="25dp"
         android:layout_above="@id/login_password"
@@ -44,21 +48,24 @@
 
     <Button
         android:id="@+id/login_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/login_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="35dp"
         android:backgroundTint="@color/colorAccent"
         android:text="LOGIN"
-        android:textColor="@android:color/white"
-        android:layout_below="@+id/login_password"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="21dp" />
+        android:textColor="@android:color/white" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="22dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:textSize="24dp"
         android:text="Login to your account"
         android:textColor="@android:color/black"
