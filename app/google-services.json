@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "800861186219",
+    "firebase_url": "https://chatapp-9a896.firebaseio.com",
+    "project_id": "chatapp-9a896",
+    "storage_bucket": "chatapp-9a896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800861186219:android:d94b82bdf6c55aa9",
+        "android_client_info": {
+          "package_name": "com.example.poornima.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800861186219-nuc950cfvo357fuudpd29qmvdfe7o3ug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.poornima.chatapp",
+            "certificate_hash": "da535c236ae90d77f3b43de1b9ee9f2307eed410"
+          }
+        },
+        {
+          "client_id": "800861186219-pg0jvsr20k1cl93rbeanpljqbmvut6cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_TR2fIRIT86E-wxNUKR579SkfvlHJmFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800861186219-pg0jvsr20k1cl93rbeanpljqbmvut6cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context="com.example.poornima.chatapp.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/girl"
+        android:id="@+id/user_single_image" />
+
+    <TextView
+        android:id="@+id/settings_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="Display Name"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:layout_below="@+id/user_single_image"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:text="My current status"
+        android:layout_below="@+id/settings_display_name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/settings_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="CHANGE IMAGE" />
+
+    <Button
+        android:id="@+id/settings_status_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="32dp"
+        android:text="CHANGE STATUS"
+        android:layout_below="@+id/settings_image_btn"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
